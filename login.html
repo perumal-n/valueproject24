@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body style="display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url(../static/img/login.jpg) no-repeat;
+background-size: cover;
+background-position: center;">
+    <div class="wrapper" style="width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    color: #acc8dd;
+    border-radius: 12px;
+    padding: 30px 40px;">
+        <form action="">
+            <h1 style="font-size: 36px;
+            text-align: center;">login</h1>
+            <!----------- username ---------------->
+            <div class="input-box" style="position: relative;
+            width: 100%;
+            height: 50px;
+            margin: 30PX 0;">
+                <input type="text" placeholder="Username" required style=" width: 100%;
+                height: 100%;
+                background: transparent;
+                border: none;
+                padding-left:20px;
+                outline: none;
+                border: 2px solid rgba(255, 255, 255,.2);
+                border-radius: 40px;
+                font-size: 16px;
+                color: #afdff1;">
+                <i class='bx bxs-user' style="position: absolute;
+                right: 20px;
+                top: 30%;
+                transform: translate(-50%);
+                font-size: 20px;"></i>
+            </div>
+            <!----------- password ---------------->
+            <div class="input-box" style="position: relative;
+            width: 100%;
+            height: 50px;
+            margin: 30PX 0;">
+                <input type="password" placeholder="Password" required style="width: 100%;
+                height: 100%;
+                background: transparent;
+                border: none;
+                padding-left:20px;
+                outline: none;
+                border: 2px solid rgba(255, 255, 255,.2);
+                border-radius: 40px;
+                font-size: 16px;
+                color: #0c0808;">
+                <i class='bx bxs-lock-alt' style="position: absolute;
+                right: 20px;
+                top: 30%;
+                transform: translate(-50%);
+                font-size: 20px;"></i>
+            </div>
+            <!----------- remember forgot ---------------->
+            <div class="remember-forgot" style="display: flex;
+            justify-content: space-between;
+            font-size: 14.5px;
+            margin: -15px 0 15px; ">
+                <label><input type="checkbox" style="accent-color: #a96bdc;
+                    margin-right: 3px;">Remember Me</label>
+                <a href="#" style="color: #f374ba;
+                text-decoration: none;">Forgot password</a>
+            </div>
+            <!-----------button btn---------------->
+            <button type="submit" class="btn" style="width: 100%;
+            height: 45px;
+            background: #35e386;
+            border: none;
+            outline: none;
+            border-radius: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0,.1);
+            cursor: pointer;
+            font-size: 16px;
+            color: #333;
+            font-weight: 600;">Login</button>
+            <!----------- register link ---------------->
+            <div class="register-link" style=" font-size: 14.5px;
+            text-align: center;
+            margin: 20px 0 15px;">
+                <p>Dont have an account? <a href="./regis.html" style="color: #fff;
+                    text-decoration: none;
+                    font-weight: 600;">Register</a></p>
+                    <div class="clearfix maya-tiny-padding"></div>
+                    <p class="text-center">New member? <a href="reg.html" class="text-secondary">Register</a></p>
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>

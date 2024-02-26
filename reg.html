@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Sharing</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body
+    style="
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: url(../static/img/regi.jpg);
+      background-size: cover;
+      background-position: center;
+    "
+  >
+    <div
+      class="wrapper"
+      style="
+        width: 750px;
+        background: rgba(212, 125, 125, 0.1);
+        border: 2px solid rgba(70, 96, 111, 0.2);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(15px);
+        border-radius: 10px;
+        color: rgb(207, 169, 232);
+        padding: 40px 35px 55px;
+        margin: 0 10px;
+      "
+    >
+      <form action="">
+        <h1 style="font-size: 36px; text-align: center; margin-bottom: 20px">
+          Registration
+        </h1>
+
+        <div
+          class="input-box"
+          style="display: flex; justify-content: space-between; flex-wrap: wrap"
+        >
+          <div
+            class="input-field"
+            style="position: relative; width: 48%; height: 50px; margin: 13px 0"
+          >
+            <input
+              type="text"
+              placeholder="First name"
+              required
+              style="
+              width: 100%;
+              height: 100%;
+              background: transparent;
+              border: 2px solid rgba(255, 255, 255, 0.2);
+              outline: none;
+              font-size: 16px;
+              color: rgb(19, 15, 16);
+              border-radius: 6px;
+              padding: 15px 15px 15px 40px;
+            "
+             />
+            <i
+              class="bx bx-user"
+              style="
+                position: absolute;
+                left: 15px;
+                top: 23px;
+                transform: translateY(-50%);
+                font-size: 20px;
+              "
+            ></i>
+          </div>
+
+          <div
+            class="input-field"
+            style="position: relative; width: 48%; height: 50px; margin: 13px 0"
+          >
+            <input
+              type="text"
+              placeholder="Last name"
+              required
+              style="
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                border: 2px solid rgba(255, 255, 255, 0.2);
+                outline: none;
+                font-size: 16px;
+                color: rgb(19, 15, 16);
+                border-radius: 6px;
+                padding: 15px 15px 15px 40px;
+              "
+            />
+            <i
+              class="bx bx-user"
+              style="
+                position: absolute;
+                left: 15px;
+                top: 23px;
+                transform: translateY(-50%);
+                font-size: 20px;
+              "
+            ></i>
+          </div>
+        </div>
+        <div
+          class="input-box"
+          style="display: flex; justify-content: space-between; flex-wrap: wrap"
+        >
+          <div
+            class="input-field"
+            style="position: relative; width: 48%; height: 50px; margin: 13px 0"
+          >
+            <input
+              type="email"
+              placeholder="Email"
+              required
+              style="
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                border: 2px solid rgba(255, 255, 255, 0.2);
+                outline: none;
+                font-size: 16px;
+                color: rgb(4, 4, 4);
+                border-radius: 6px;
+                padding: 15px 15px 15px 40px;
+              "
+            />
+            <i
+              class="bx bxl-gmail"
+              style="
+                position: absolute;
+                left: 15px;
+                top: 23px;
+                transform: translateY(-50%);
+                font-size: 20px;
+              "
+            ></i>
+          </div>
+
+          <div
+            class="input-field"
+            style="position: relative; width: 48%; height: 50px; margin: 13px 0"
+          >
+            <input
+              type="number"
+              placeholder="phone number"
+              required
+              style="
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                border: 2px solid rgba(255, 255, 255, 0.2);
+                outline: none;
+                font-size: 16px;
+                color: rgb(10, 11, 10);
+                border-radius: 6px;
+                padding: 15px 15px 15px 40px;
+              "
+            />
+            <i
+              class="bx bx-phone"
+              style="
+                position: absolute;
+                left: 15px;
+                top: 23px;
+                transform: translateY(-50%);
+                font-size: 20px;
+              "
+            ></i>
+          </div>
+        </div>
+        <div
+          class="input-box"
+          style="display: flex; justify-content: space-between; flex-wrap: wrap"
+        >
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Password"
+              required
+              style="
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                border: 2px solid rgba(255, 255, 255, 0.2);
+                outline: none;
+                font-size: 16px;
+                color: rgb(12, 13, 15);
+                border-radius: 6px;
+                padding: 15px 15px 15px 40px;
+              "
+            />
+            <i
+              class="bx bxs-lock-alt"
+              style="
+                position: absolute;
+                left: 15px;
+                top: 23px;
+                transform: translateY(-50%);
+                font-size: 20px;
+              "
+            ></i>
+          </div>
+
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="confirm password"
+              required
+              style="
+                width: 100%;
+                height: 100%;
+                background: transparent;
+                border: 2px solid rgba(255, 255, 255, 0.2);
+                outline: none;
+                font-size: 16px;
+                color: rgb(12, 16, 14);
+                border-radius: 6px;
+                padding: 15px 15px 15px 40px;
+              "
+            />
+            <i
+              class="bx bxs-lock-alt"
+              style="
+                position: absolute;
+                left: 15px;
+                top: 23px;
+                transform: translateY(-50%);
+                font-size: 20px;
+              "
+            ></i>
+          </div>
+        </div>
+
+        <label
+          style="display: inline-block; font-size: 14.5px; margin: 10px 0 23px"
+        >
+          <input type="checkbox" style="accent-color: rgb(12, 11, 12); margin: 5px" /> I
+          hereby declare that the above information provided is true and
+          correct</label
+        >
+        <button
+          type="submit"
+          class="btn"
+          style="
+            width: 100px;
+            height: 45px;
+            background: rgb(206, 19, 213);
+            border: none;
+            outline: none;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            font-size: 16px;
+            color: #333;
+            font-weight: 600;
+          "
+        >
+          Register
+        </button>
+        <!----------- login ---------------->
+        <div class="register-link" style=" font-size: 14.5px;
+        text-align: center;
+        margin: 20px 0 15px;">
+            <p>you have an account? <a href="./login.html" style="color: #110a0a;
+                text-decoration: none;
+                font-weight: 600;">Login</a></p>
+                
+      </form>
+    </div>
+  </body>
+</html>
